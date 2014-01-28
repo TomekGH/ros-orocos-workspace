@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "rtt_ros_integration")
-set(rtt_ros_integration_MAINTAINER "Ruben Smits <ruben.smits@mech.kuleuven.be>")
-set(rtt_ros_integration_DEPRECATED "")
-set(rtt_ros_integration_VERSION "2.7.0")
-set(rtt_ros_integration_BUILD_DEPENDS )
-set(rtt_ros_integration_RUN_DEPENDS "rtt_actionlib" "rtt_kdl_conversions" "rtt_ros" "rtt_roscomm" "rtt_rosnode" "rtt_rospack" "rtt_rosparam" "rtt_tf")
-set(rtt_ros_integration_BUILDTOOL_DEPENDS "catkin")

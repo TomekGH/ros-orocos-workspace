@@ -1,8 +1,0 @@
-prefix=/home/tpokorsk/ros-orocos-workspace/underlay/devel
-
-Name: rtt_rosnode
-Description: Description of rtt_rosnode
-Version: 2.7.0
-Cflags: 
-Libs: -L/home/tpokorsk/ros-orocos-workspace/underlay/devel/lib 
-Requires: 

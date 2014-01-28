@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "rtt_rosparam")
-set(rtt_rosparam_MAINTAINER "Orocos Developers <orocos-dev@lists.mech.kuleuven.be>")
-set(rtt_rosparam_DEPRECATED "")
-set(rtt_rosparam_VERSION "2.7.0")
-set(rtt_rosparam_BUILD_DEPENDS "rtt_ros" "roscpp")
-set(rtt_rosparam_RUN_DEPENDS "rtt_ros" "roscpp")
-set(rtt_rosparam_BUILDTOOL_DEPENDS "catkin")

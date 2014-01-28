@@ -1,6 +1,0 @@
-/home/tpokorsk/ros-orocos-workspace/irp6_robot/build/CMakeFiles/clean_test_results.dir
-/home/tpokorsk/ros-orocos-workspace/irp6_robot/build/CMakeFiles/doxygen.dir
-/home/tpokorsk/ros-orocos-workspace/irp6_robot/build/gtest/CMakeFiles/gtest.dir
-/home/tpokorsk/ros-orocos-workspace/irp6_robot/build/gtest/CMakeFiles/gtest_main.dir
-/home/tpokorsk/ros-orocos-workspace/irp6_robot/build/CMakeFiles/run_tests.dir
-/home/tpokorsk/ros-orocos-workspace/irp6_robot/build/CMakeFiles/tests.dir

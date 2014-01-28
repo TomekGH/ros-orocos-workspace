@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "sarkofag_regulator")
-set(sarkofag_regulator_MAINTAINER "Tomasz Pokorski <tomek.pokorski@gmail.com>")
-set(sarkofag_regulator_DEPRECATED "")
-set(sarkofag_regulator_VERSION "2.6.0")
-set(sarkofag_regulator_BUILD_DEPENDS "rtt" "rtt_ros" "std_msgs")
-set(sarkofag_regulator_RUN_DEPENDS "rtt" "rtt_ros" "rtt_rosnode" "rtt_roscomm" "rtt_rosparam" "rtt_std_msgs" "rtt_std_srvs")
-set(sarkofag_regulator_BUILDTOOL_DEPENDS "catkin")

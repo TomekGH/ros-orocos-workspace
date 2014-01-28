@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "new_component")
-set(new_component_MAINTAINER "Ruben Smits <ruben.smits@mech.kuleuven.be>")
-set(new_component_DEPRECATED "")
-set(new_component_VERSION "2.6.0")
-set(new_component_BUILD_DEPENDS "rtt" "rtt_ros" "std_msgs")
-set(new_component_RUN_DEPENDS "rtt" "rtt_ros" "rtt_rosnode" "rtt_roscomm" "rtt_rosparam" "rtt_std_msgs" "rtt_std_srvs")
-set(new_component_BUILDTOOL_DEPENDS "catkin")

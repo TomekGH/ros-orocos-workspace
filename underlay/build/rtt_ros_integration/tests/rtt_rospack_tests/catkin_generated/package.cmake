@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "rtt_rospack_tests")
-set(rtt_rospack_tests_MAINTAINER "Jonathan Bohren <jbo@jhu.edu>")
-set(rtt_rospack_tests_DEPRECATED "")
-set(rtt_rospack_tests_VERSION "2.7.0")
-set(rtt_rospack_tests_BUILD_DEPENDS "roslib" "rtt_rospack" "ocl")
-set(rtt_rospack_tests_RUN_DEPENDS "rtt_rospack")
-set(rtt_rospack_tests_BUILDTOOL_DEPENDS "catkin")

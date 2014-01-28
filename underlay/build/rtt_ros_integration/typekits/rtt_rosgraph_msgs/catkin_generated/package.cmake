@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "rtt_rosgraph_msgs")
-set(rtt_rosgraph_msgs_MAINTAINER "Ruben Smits <ruben.smits@mech.kuleuven.be>")
-set(rtt_rosgraph_msgs_DEPRECATED "")
-set(rtt_rosgraph_msgs_VERSION "2.7.0")
-set(rtt_rosgraph_msgs_BUILD_DEPENDS "rtt_roscomm" "rosgraph_msgs" "rtt_std_msgs")
-set(rtt_rosgraph_msgs_RUN_DEPENDS "rtt_roscomm" "rosgraph_msgs" "rtt_std_msgs")
-set(rtt_rosgraph_msgs_BUILDTOOL_DEPENDS "catkin")

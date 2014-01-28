@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "rtt_actionlib")
-set(rtt_actionlib_MAINTAINER "Orocos Developers <orocos-dev@lists.mech.kuleuven.be>")
-set(rtt_actionlib_DEPRECATED "")
-set(rtt_actionlib_VERSION "2.7.0")
-set(rtt_actionlib_BUILD_DEPENDS "rtt_ros" "rtt_roscomm" "roscpp" "actionlib" "actionlib_msgs" "rtt_actionlib_msgs")
-set(rtt_actionlib_RUN_DEPENDS "rtt_ros" "rtt_roscomm" "roscpp" "actionlib" "actionlib_msgs" "rtt_actionlib_msgs")
-set(rtt_actionlib_BUILDTOOL_DEPENDS "catkin")

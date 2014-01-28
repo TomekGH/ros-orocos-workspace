@@ -1,8 +1,0 @@
-prefix=/home/tpokorsk/ros-orocos-workspace/underlay/install
-
-Name: rtt_std_srvs
-Description: Description of rtt_std_srvs
-Version: 2.7.0
-Cflags: 
-Libs: -L/home/tpokorsk/ros-orocos-workspace/underlay/install/lib 
-Requires: 

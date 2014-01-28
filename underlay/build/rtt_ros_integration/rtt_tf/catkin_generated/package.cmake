@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "rtt_tf")
-set(rtt_tf_MAINTAINER "Ruben Smits <ruben.smits@mech.kuleuven.be>")
-set(rtt_tf_DEPRECATED "")
-set(rtt_tf_VERSION "2.7.0")
-set(rtt_tf_BUILD_DEPENDS "rtt" "tf" "rtt_roscomm" "rtt_geometry_msgs")
-set(rtt_tf_RUN_DEPENDS "rtt" "tf" "rtt_roscomm" "rtt_geometry_msgs")
-set(rtt_tf_BUILDTOOL_DEPENDS "catkin")

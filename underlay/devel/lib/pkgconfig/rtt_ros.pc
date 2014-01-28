@@ -1,8 +1,0 @@
-prefix=/home/tpokorsk/ros-orocos-workspace/underlay/devel
-
-Name: rtt_ros
-Description: Description of rtt_ros
-Version: 2.7.0
-Cflags: -I/home/tpokorsk/ros-orocos-workspace/underlay/src/rtt_ros_integration/rtt_ros/include
-Libs: -L/home/tpokorsk/ros-orocos-workspace/underlay/devel/lib 
-Requires: 

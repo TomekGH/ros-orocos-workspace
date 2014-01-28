@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "rtt_common_msgs")
-set(rtt_common_msgs_MAINTAINER "Orocos Developers <orocos-dev@lists.mech.kuleuven.be>")
-set(rtt_common_msgs_DEPRECATED "")
-set(rtt_common_msgs_VERSION "2.7.0")
-set(rtt_common_msgs_BUILD_DEPENDS )
-set(rtt_common_msgs_RUN_DEPENDS "rtt_actionlib_msgs" "rtt_diagnostic_msgs" "rtt_geometry_msgs" "rtt_nav_msgs" "rtt_sensor_msgs" "rtt_shape_msgs" "rtt_stereo_msgs" "rtt_trajectory_msgs" "rtt_visualization_msgs")
-set(rtt_common_msgs_BUILDTOOL_DEPENDS "catkin")

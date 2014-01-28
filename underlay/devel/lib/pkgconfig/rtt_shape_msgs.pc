@@ -1,8 +1,0 @@
-prefix=/home/tpokorsk/ros-orocos-workspace/underlay/devel
-
-Name: rtt_shape_msgs
-Description: Description of rtt_shape_msgs
-Version: 2.7.0
-Cflags: -I/home/tpokorsk/ros-orocos-workspace/underlay/devel/include/orocos -I/opt/ros/hydro/include -I/usr/include
-Libs: -L/home/tpokorsk/ros-orocos-workspace/underlay/devel/lib 
-Requires: 

@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "rtt_rosnode")
-set(rtt_rosnode_MAINTAINER "Orocos Developers <orocos-dev@lists.mech.kuleuven.be>")
-set(rtt_rosnode_DEPRECATED "")
-set(rtt_rosnode_VERSION "2.7.0")
-set(rtt_rosnode_BUILD_DEPENDS "rtt_ros" "roscpp")
-set(rtt_rosnode_RUN_DEPENDS "rtt_ros" "roscpp")
-set(rtt_rosnode_BUILDTOOL_DEPENDS "catkin")

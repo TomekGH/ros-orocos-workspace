@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "beginner_tutorials")
-set(beginner_tutorials_MAINTAINER "Ruben Smits <ruben.smits@mech.kuleuven.be>")
-set(beginner_tutorials_DEPRECATED "")
-set(beginner_tutorials_VERSION "2.6.0")
-set(beginner_tutorials_BUILD_DEPENDS "rtt" "rtt_ros" "std_msgs" "message_generation")
-set(beginner_tutorials_RUN_DEPENDS "message_runtime" "rtt" "rtt_ros" "rtt_rosnode" "rtt_roscomm" "rtt_rosparam" "rtt_std_msgs" "rtt_std_srvs")
-set(beginner_tutorials_BUILDTOOL_DEPENDS "catkin")

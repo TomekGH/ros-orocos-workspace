@@ -1,8 +1,0 @@
-prefix=/home/tpokorsk/ros-orocos-workspace/example/devel
-
-Name: rtt_actionlib_examples
-Description: Description of rtt_actionlib_examples
-Version: 0.0.0
-Cflags: -I/home/tpokorsk/ros-orocos-workspace/example/devel/include
-Libs: -L/home/tpokorsk/ros-orocos-workspace/example/devel/lib 
-Requires: 

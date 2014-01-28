@@ -1,8 +1,0 @@
-prefix=/home/tpokorsk/ros-orocos-workspace/sarkofag/devel
-
-Name: sarkofag_regulator
-Description: Description of sarkofag_regulator
-Version: 2.6.0
-Cflags: 
-Libs: -L/home/tpokorsk/ros-orocos-workspace/sarkofag/devel/lib 
-Requires: rtt_ros

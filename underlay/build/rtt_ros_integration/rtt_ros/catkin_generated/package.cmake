@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "rtt_ros")
-set(rtt_ros_MAINTAINER "Orocos Developers <orocos-dev@lists.mech.kuleuven.be>")
-set(rtt_ros_DEPRECATED "")
-set(rtt_ros_VERSION "2.7.0")
-set(rtt_ros_BUILD_DEPENDS "rtt" "ocl" "rostime" "rospack" "libxml2")
-set(rtt_ros_RUN_DEPENDS "rtt" "ocl" "rostime" "rospack" "libxml2")
-set(rtt_ros_BUILDTOOL_DEPENDS "catkin")

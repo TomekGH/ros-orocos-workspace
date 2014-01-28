@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "rtt_actionlib_examples")
-set(rtt_actionlib_examples_MAINTAINER "Orocos Developers <orocos-dev@lists.mech.kuleuven.be>")
-set(rtt_actionlib_examples_DEPRECATED "")
-set(rtt_actionlib_examples_VERSION "0.0.0")
-set(rtt_actionlib_examples_BUILD_DEPENDS "ocl" "ocl-deployment" "ocl-taskbrowser" "rtt" "rtt_ros" "rtt_roscomm" "rtt_actionlib" "rtt_actionlib_msgs" "roscpp" "actionlib" "actionlib_msgs" "message_generation")
-set(rtt_actionlib_examples_RUN_DEPENDS "ocl" "rtt" "rtt_ros" "rtt_roscomm" "rtt_actionlib" "rtt_actionlib_msgs" "roscpp" "actionlib" "actionlib_msgs" "message_runtime")
-set(rtt_actionlib_examples_BUILDTOOL_DEPENDS "catkin")
