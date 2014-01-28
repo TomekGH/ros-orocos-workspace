@@ -1,0 +1,37 @@
+import("rtt_ros")
+ros.import("sarkofag_servo")
+ros.import("sarkofag_regulator")
+
+## Load components
+loadComponent("SarkofagServo","SarkofagServo")
+loadComponent("SarkofagRegulator","SarkofagRegulator")
+
+## Give it a periodic activity
+setActivity("SarkofagServo",0.002,HighestPriority,ORO_SCHED_RT)
+setActivity("SarkofagRegulator",0.002,HighestPriority,ORO_SCHED_RT)
+
+## Create connections
+stream("SarkofagServo.computedPwm_in", rostopic.connection("computedPwm_in"))
+stream("SarkofagServo.posInc_out", rostopic.connection("posInc_out"))
+stream("SarkofagServo.deltaInc_out", rostopic.connection("deltaInc_out"))
+
+stream("SarkofagRegulator.posInc_in", rostopic.connection("posInc_in"))
+stream("SarkofagRegulator.deltaInc_in", rostopic.connection("deltaInc_in"))
+stream("SarkofagRegulator.computedPwm_out", rostopic.connection("computedPwm_out"))
+
+connect("SarkofagServo.computedPwm_in","SarkofagRegulator.computedPwm_out", ConnPolicy())
+connect("SarkofagRegulator.posInc_in","SarkofagServo.posInc_out", ConnPolicy())
+connect("SarkofagRegulator.deltaInc_in","SarkofagServo.deltaInc_out", ConnPolicy())
+
+## Connect the 
+loadService("SarkofagServo","rosservice")
+SarkofagServo.rosservice.connect( "increment", "/increment", "std_srvs/Empty")
+SarkofagServo.rosservice.connect( "updated", "/updated", "std_srvs/Empty")
+
+## Configure the HelloRobot component
+SarkofagServo.configure()
+SarkofagRegulator.configure()
+
+## Start it
+SarkofagServo.start()
+SarkofagRegulator.start()
