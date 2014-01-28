@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rtt_kdl_conversions")
+set(rtt_kdl_conversions_MAINTAINER "ruben smits <ruben.smits@mech.kuleuven.be>")
+set(rtt_kdl_conversions_DEPRECATED "")
+set(rtt_kdl_conversions_VERSION "2.7.0")
+set(rtt_kdl_conversions_BUILD_DEPENDS "rtt" "kdl_conversions")
+set(rtt_kdl_conversions_RUN_DEPENDS "rtt" "kdl_conversions")
+set(rtt_kdl_conversions_BUILDTOOL_DEPENDS "catkin")

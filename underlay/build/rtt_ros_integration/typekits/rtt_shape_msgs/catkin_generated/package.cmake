@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rtt_shape_msgs")
+set(rtt_shape_msgs_MAINTAINER "Orocos Developers <orocos-dev@lists.mech.kuleuven.be>")
+set(rtt_shape_msgs_DEPRECATED "")
+set(rtt_shape_msgs_VERSION "2.7.0")
+set(rtt_shape_msgs_BUILD_DEPENDS "shape_msgs" "rtt_roscomm" "rtt_std_msgs" "rtt_geometry_msgs")
+set(rtt_shape_msgs_RUN_DEPENDS "shape_msgs" "rtt_roscomm" "rtt_std_msgs" "rtt_geometry_msgs")
+set(rtt_shape_msgs_BUILDTOOL_DEPENDS "catkin")

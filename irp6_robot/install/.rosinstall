@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/tpokorsk/ros-orocos-workspace/irp6_robot/install/setup.sh

@@ -1,0 +1,11 @@
+prefix=/home/tpokorsk/ros-orocos-workspace/example/install
+libdir=${prefix}/lib
+includedir=${prefix}/include/orocos
+orocos_libdir=${libdir}/orocos/gnulinux/new_component
+
+Name: new_component-gnulinux
+Description: new_component-gnulinux package for Orocos
+Requires: orocos-rtt-gnulinux 
+Version: 1.0
+Libs:  -L${orocos_libdir}  -lnew_component-gnulinux
+Cflags: -I${includedir}

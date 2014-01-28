@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rtt_stereo_msgs")
+set(rtt_stereo_msgs_MAINTAINER "Orocos Developers <orocos-dev@lists.mech.kuleuven.be>")
+set(rtt_stereo_msgs_DEPRECATED "")
+set(rtt_stereo_msgs_VERSION "2.7.0")
+set(rtt_stereo_msgs_BUILD_DEPENDS "stereo_msgs" "rtt_roscomm" "rtt_std_msgs" "rtt_geometry_msgs" "rtt_sensor_msgs")
+set(rtt_stereo_msgs_RUN_DEPENDS "stereo_msgs" "rtt_roscomm" "rtt_std_msgs" "rtt_geometry_msgs" "rtt_sensor_msgs")
+set(rtt_stereo_msgs_BUILDTOOL_DEPENDS "catkin")

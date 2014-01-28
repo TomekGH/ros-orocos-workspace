@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rtt_ros_integration_example")
+set(rtt_ros_integration_example_MAINTAINER "Ruben Smits <ruben.smits@mech.kuleuven.be>")
+set(rtt_ros_integration_example_DEPRECATED "")
+set(rtt_ros_integration_example_VERSION "2.6.0")
+set(rtt_ros_integration_example_BUILD_DEPENDS "rtt" "rtt_ros" "std_msgs")
+set(rtt_ros_integration_example_RUN_DEPENDS "rtt" "rtt_ros" "rtt_rosnode" "rtt_roscomm" "rtt_rosparam" "rtt_std_msgs" "rtt_std_srvs")
+set(rtt_ros_integration_example_BUILDTOOL_DEPENDS "catkin")

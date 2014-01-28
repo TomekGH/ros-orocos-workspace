@@ -1,0 +1,10 @@
+<launch>
+  <include file="$(find rtt_ros)/launch/deployer.launch">
+    <arg name="DEPLOYER_ARGS" value="-s $(find sarkofag_servo)/sarkofag.ops"/>
+    <arg name="LOG_LEVEL" value="Warning"/>
+    <arg name="DEBUG" value="false"/>
+  </include>
+
+  <node name="update_monitor" pkg="sarkofag_servo" type="update_monitor.py" output="screen"/>
+</launch>
+

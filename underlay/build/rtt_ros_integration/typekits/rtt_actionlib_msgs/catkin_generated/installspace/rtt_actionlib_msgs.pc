@@ -1,0 +1,8 @@
+prefix=/home/tpokorsk/ros-orocos-workspace/underlay/install
+
+Name: rtt_actionlib_msgs
+Description: Description of rtt_actionlib_msgs
+Version: 2.7.0
+Cflags: -I/home/tpokorsk/ros-orocos-workspace/underlay/install/include
+Libs: -L/home/tpokorsk/ros-orocos-workspace/underlay/install/lib 
+Requires: 

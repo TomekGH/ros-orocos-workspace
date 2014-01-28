@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rtt_trajectory_msgs")
+set(rtt_trajectory_msgs_MAINTAINER "Orocos Developers <orocos-dev@lists.mech.kuleuven.be>")
+set(rtt_trajectory_msgs_DEPRECATED "")
+set(rtt_trajectory_msgs_VERSION "2.7.0")
+set(rtt_trajectory_msgs_BUILD_DEPENDS "trajectory_msgs" "rtt_roscomm" "rtt_std_msgs" "rtt_geometry_msgs")
+set(rtt_trajectory_msgs_RUN_DEPENDS "trajectory_msgs" "rtt_roscomm" "rtt_std_msgs" "rtt_geometry_msgs")
+set(rtt_trajectory_msgs_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rtt_std_msgs")
+set(rtt_std_msgs_MAINTAINER "Ruben Smits <ruben.smits@mech.kuleuven.be>")
+set(rtt_std_msgs_DEPRECATED "")
+set(rtt_std_msgs_VERSION "2.7.0")
+set(rtt_std_msgs_BUILD_DEPENDS "rtt_roscomm" "std_msgs")
+set(rtt_std_msgs_RUN_DEPENDS "rtt_roscomm" "std_msgs")
+set(rtt_std_msgs_BUILDTOOL_DEPENDS "catkin")

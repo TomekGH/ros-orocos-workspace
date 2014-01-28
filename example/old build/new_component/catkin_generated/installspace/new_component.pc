@@ -1,0 +1,8 @@
+prefix=/home/tpokorsk/ros-orocos-workspace/example/install
+
+Name: new_component
+Description: Description of new_component
+Version: 2.6.0
+Cflags: 
+Libs: -L/home/tpokorsk/ros-orocos-workspace/example/install/lib 
+Requires: rtt_ros

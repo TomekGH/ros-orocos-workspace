@@ -1,0 +1,8 @@
+prefix=/home/tpokorsk/ros-orocos-workspace/sarkofag/install
+
+Name: sarkofag_servo
+Description: Description of sarkofag_servo
+Version: 2.6.0
+Cflags: 
+Libs: -L/home/tpokorsk/ros-orocos-workspace/sarkofag/install/lib 
+Requires: rtt_ros

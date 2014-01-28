@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rtt_diagnostic_msgs")
+set(rtt_diagnostic_msgs_MAINTAINER "Orocos Developers <orocos-dev@lists.mech.kuleuven.be>")
+set(rtt_diagnostic_msgs_DEPRECATED "")
+set(rtt_diagnostic_msgs_VERSION "2.7.0")
+set(rtt_diagnostic_msgs_BUILD_DEPENDS "diagnostic_msgs" "rtt_roscomm" "rtt_std_msgs")
+set(rtt_diagnostic_msgs_RUN_DEPENDS "diagnostic_msgs" "rtt_roscomm" "rtt_std_msgs")
+set(rtt_diagnostic_msgs_BUILDTOOL_DEPENDS "catkin")

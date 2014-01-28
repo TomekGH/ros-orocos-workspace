@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rtt_std_srvs")
+set(rtt_std_srvs_MAINTAINER "Orocos Developers <orocos-dev@lists.mech.kuleuven.be>")
+set(rtt_std_srvs_DEPRECATED "")
+set(rtt_std_srvs_VERSION "2.7.0")
+set(rtt_std_srvs_BUILD_DEPENDS "genmsg" "rtt_roscomm" "std_srvs")
+set(rtt_std_srvs_RUN_DEPENDS "genmsg" "rtt_roscomm" "std_srvs")
+set(rtt_std_srvs_BUILDTOOL_DEPENDS "catkin")

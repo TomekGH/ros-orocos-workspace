@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rtt_rospack")
+set(rtt_rospack_MAINTAINER "Ruben Smits <ruben.smits@mech.kuleuven.be>")
+set(rtt_rospack_DEPRECATED "")
+set(rtt_rospack_VERSION "2.7.0")
+set(rtt_rospack_BUILD_DEPENDS "rtt_ros" "roslib")
+set(rtt_rospack_RUN_DEPENDS "rtt_ros" "roslib")
+set(rtt_rospack_BUILDTOOL_DEPENDS "catkin")

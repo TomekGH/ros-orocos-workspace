@@ -1,0 +1,77 @@
+0.000 [ Info   ][Logger] No ORO_LOGLEVEL environment variable set.
+0.000 [ Info   ][Logger]  OROCOS version '2.6.9' compiled with GCC 4.6.3. Running in GNU/Linux.
+0.000 [ Info   ][Logger] Orocos Logging Activated at level : [ Warning] ( 4 ) 
+0.000 [ Info   ][Logger] Reference System Time is : 1383573190844522461 ticks ( 1.38357e+09 seconds ).
+0.000 [ Info   ][Logger] Logging is relative to this time.
+0.000 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /home/tpokorsk/ros-orocos-workspace/underlay/devel/lib/orocos:/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos:/opt/ros/hydro/lib/orocos . Searching in: /home/tpokorsk/ros-orocos-workspace/underlay/devel/lib/orocos:/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos:/opt/ros/hydro/lib/orocos:/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos
+0.000 [ Info   ][Logger] plugin 'rtt' not loaded before.
+0.004 [ Info   ][Logger] Loading plugin libraries from directory /home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/./plugins ...
+0.006 [ Info   ][Logger] Loaded RTT Service 'marshalling' from 'rtt-marshalling'
+0.007 [ Info   ][Logger] Loaded RTT Service 'scripting' from 'rtt-scripting'
+0.007 [ Info   ][Logger] Loading plugin libraries from directory /home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/./plugins ...
+0.007 [ Info   ][Logger] typekit 'rtt' not loaded before.
+0.009 [ Info   ][Logger] Loading typekit libraries from directory /home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/./types ...
+2.438 [ Info   ][TypekitRepository::Import] Loading Transport mqueue://rtt-types.
+2.438 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-mqueue-transport' from 'rtt-transport-mqueue'
+2.588 [ Info   ][TypekitRepository::Import] Loading Typekit rtt-types.
+2.588 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for int
+2.588 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for uint
+2.588 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for double
+2.588 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for float
+2.588 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for char
+2.588 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for bool
+2.588 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for array
+2.588 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-types' from 'rtt-typekit'
+2.588 [ Info   ][Logger] Loading typekit libraries from directory /home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/./types ...
+2.589 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /home/tpokorsk/ros-orocos-workspace/underlay/devel/lib/orocos:/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos:/opt/ros/hydro/lib/orocos . Searching in: /home/tpokorsk/ros-orocos-workspace/underlay/devel/lib/orocos:/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos:/opt/ros/hydro/lib/orocos:/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos
+2.589 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Deployer'
+2.589 [ Info   ][Deployer] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0 (PID= 3643 ).
+2.589 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='GlobalEngine'
+2.589 [ Info   ][GlobalEngine] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0 (PID= 3644 ).
+2.590 [ Info   ][Logger] No site file was found. Importing 'ocl' by default.
+2.592 [ Info   ][DeploymentComponent::import] Importing directory /home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl ...
+2.643 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-common-gnulinux.so'
+2.699 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::HelloWorld'
+5.195 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::logging::Log4cxxAppender'
+5.252 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-logging-gnulinux.so'
+5.285 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::LuaComponent'
+8.193 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::LuaTLSFComponent'
+8.284 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-gnulinux.so'
+8.965 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-netcdf-gnulinux.so'
+8.965 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::NetcdfReporting'
+9.012 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-timer-gnulinux.so'
+11.645 [ Info   ][DeploymentComponent::import] Loading typekit libraries from directory /home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/types ...
+11.711 [ Info   ][TypekitRepository::Import] Loading Typekit OCLTypekit.
+11.711 [ Info   ][DeploymentComponent::import] Loaded RTT TypeKit/Transport 'OCLTypekit' from 'ocl'
+11.765 [ Info   ][DeploymentComponent::import] Loading plugin libraries from directory /home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/plugins ...
+11.801 [ Info   ][DeploymentComponent::import] Loaded RTT Service 'os' from 'os'
+11.875 [ Info   ][DeploymentComponent::import] Loaded RTT Service 'print' from 'print'
+11.894 [ Info   ][DeploymentComponent::import] Loaded RTT Service 'Lua' from 'rttlua-plugin'
+11.929 [ Info   ][DeploymentComponent::import] Loaded RTT Service 'LuaTLSF' from 'rttlua-tlsf-plugin'
+11.929 [ Info   ][DeploymentComponent::import] Importing directory /home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl ...
+11.941 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-common-gnulinux.so'
+11.941 [ Warning][DeploymentComponent::import] Component type name OCL::HelloWorld already used: overriding.
+11.941 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::HelloWorld'
+11.941 [ Warning][DeploymentComponent::import] Component type name OCL::logging::Log4cxxAppender already used: overriding.
+11.941 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::logging::Log4cxxAppender'
+11.941 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-logging-gnulinux.so'
+11.941 [ Warning][DeploymentComponent::import] Component type name OCL::LuaComponent already used: overriding.
+11.942 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::LuaComponent'
+11.942 [ Warning][DeploymentComponent::import] Component type name OCL::LuaTLSFComponent already used: overriding.
+11.942 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::LuaTLSFComponent'
+11.942 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-gnulinux.so'
+11.942 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-netcdf-gnulinux.so'
+11.942 [ Warning][DeploymentComponent::import] Component type name OCL::NetcdfReporting already used: overriding.
+11.942 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::NetcdfReporting'
+11.942 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/liborocos-ocl-timer-gnulinux.so'
+11.943 [ Info   ][DeploymentComponent::import] Loading typekit libraries from directory /home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/types ...
+11.945 [ Info   ][DeploymentComponent::import] Loading plugin libraries from directory /home/tpokorsk/ros-orocos-workspace/underlay_isolated/install_isolated/lib/orocos/gnulinux/ocl/plugins ...
+11.946 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='TaskBrowser'
+11.946 [ Info   ][TaskBrowser] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 15 and period 0 (PID= 3645 ).
+11.948 [ Info   ][Logger] Entering Task Deployer
+23.843 [ Info   ][Logger] Ignoring deployment shutdown function due to missing peer.
+23.844 [ Info   ][DeploymentComponent::stopComponentsGroup] Stopping group 0
+23.844 [ Info   ][DeploymentComponent::cleanupComponentsGroup] Cleaning up group 0
+23.844 [ Info   ][Logger] Unloading group 0
+23.844 [ Info   ][Logger] Kick-out of group 0 successful.
+23.845 [ Info   ][Logger] Orocos Logging Deactivated.

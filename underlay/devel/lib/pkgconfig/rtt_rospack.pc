@@ -1,0 +1,8 @@
+prefix=/home/tpokorsk/ros-orocos-workspace/underlay/devel
+
+Name: rtt_rospack
+Description: Description of rtt_rospack
+Version: 2.7.0
+Cflags: 
+Libs: -L/home/tpokorsk/ros-orocos-workspace/underlay/devel/lib 
+Requires: 
